@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blog-section{
+    height: calc(100vh - 90px);
+    width: 100%;
+    margin-top: 90px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding: 10px 20px;
+    min-height: 400px;
+    background-color: #eee;
+    margin: 0 auto;
+}
+form label{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+form input{
+    margin-bottom: 40px;
+    padding: 10px;
+}
+form .submit{
+    padding: 10px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    border: 0;
+}

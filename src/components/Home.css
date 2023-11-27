@@ -1,0 +1,28 @@
+.hero-section{
+    min-height: calc(100vh - 90px);
+    margin-top: 90px;
+    width: 100%;
+}
+.hero-section .container{
+    width: 60%;
+    margin: 0 auto;
+}
+.hero-section .container .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, .1);
+
+}
+.box .box-btn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.box .box-btn button{
+    padding: 10px;
+    background-color: transparent;
+}
